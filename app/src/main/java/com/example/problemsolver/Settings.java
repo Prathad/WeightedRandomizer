@@ -159,7 +159,7 @@ public class Settings extends AppCompatActivity {
         String currentTheme = RealSettings.getDefaults("Theme", "like");
         Log.d("settingcheck", "CurrentTheme:" + currentTheme);
         if (currentTheme.equals("watermelon")) {
-            Log.d("check", "We made it here 22");
+            Log.d("check", "We made it here 2");
             mainColor = "#5ddc74";//#ed134a
             mainColorDark = "#2ed14c";//#aa134a
             mainColorText = "#143119";//#470516
